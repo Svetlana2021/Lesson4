@@ -1,0 +1,143 @@
+/* @import url ("https://fonts.googleapis.com/css2? family = Lato & family = Lobster & family = Roboto & family = Roboto + Slab & family = Ubuntu: ital, wght @ 0,400; 0,700; 1,400 & display = swap "); */
+
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:regular,italic,900,display=swap&subset=cyrillic-ext");
+
+@font-face {
+	font-family: "Ubuntu";
+	src: url("../fons/Ubuntu-Medium.woff2") format("woff2"), url("../fons/Ubuntu-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Ubuntu";
+	src: url("../fons/Ubuntu-Regular.woff2") format("woff2"), url("../fons/Ubuntu-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Ubuntu";
+	src: url("../fons/Ubuntu-Italic.woff2") format("woff2"), url("../fons/Ubuntu-Italic.woff") format("woff");
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html {
+	font-size: 18px;
+}
+body {
+	font-family: "Ubuntu", sans-serif;
+	line-height: 1;
+	color: #333;
+}
+/* ------------------------------ */
+
+h1 {
+	font-family: "Fira Sans Condensed", sans-serif;
+	font-size: 50px;
+	font-style: italic;
+	font-weight: 700;
+	text-shadow: 10px -10px 20px #006666;
+	color: #000;
+	letter-spacing: 12px;
+	text-align: center;
+}
+h2,
+h3 {
+	font-family: "Fira Sans Condensed", sans-serif;
+	font-size: 30px;
+	font-style: oblique;
+	font-weight: 700;
+	text-shadow: 10px 10px 20px #c57f7f;
+	color: #000;
+	letter-spacing: -2px;
+	text-align: center;
+}
+span {
+	color: #008000;
+	word-spacing: 30px
+}
+p {
+	color: #ff0000;
+	word-spacing: 5px
+}
+.text {
+	color: #800080;
+	text-align: justify;
+	text-indent: 50px
+	
+}
+.atribut {
+	color: #333;
+	font-size: 20px;
+	font-style: italic;
+	letter-spacing: 6px;
+
+}
+#menu {
+	color: #ff7f50;
+	font-style: italic;
+	text-align: right;
+	text-decoration: underline;
+}
+div {
+	color: darkblue;
+	font-weight: 500;
+}
+.paragraph {
+	font-size: 30px;
+	letter-spacing: 2px;
+}
+div .text{
+	font-size: 12px;
+	text-indent: 50px
+	
+}
+div p {
+	font-weight: 500;
+	line-height: 150%;
+	text-indent: 50px
+	
+}
+div p.text{
+	font-style: italic;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+	text-indent: 50px
+}
+
+
